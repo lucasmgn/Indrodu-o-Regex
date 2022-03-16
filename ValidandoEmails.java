@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class ValidandoEmails {
 	public static void main(String[] args) {
 		
-		String[] emails = {"joão@oao.com", "maria@", "jose@jose"};
+		String[] emails = {"joao@oao.com", "maria@", "jose@jose", "carlo@magno.com"};
 		
 		Pattern pattern = Pattern.compile("\\w+@\\w+\\.\\w+");
 		for(String email : emails) {
